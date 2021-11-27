@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #141010
+}
+.container{
+    display: inline-flex;
+    height: 120px;
+    width: 700px;
+    margin: 50px 50px 0 50px;
+    justify-content: space-evenly;
+    background-color: #C3195D;
+    border-radius: 4px 4px 0 0 ;
+    box-shadow: 0 0 7px #0000004F;
+}
+
+.time{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    color: #F70776;
+    background-color:#680747;
+    border-radius: 6px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin:30px 0 30px 0 ;
+    text-shadow: 0 5px 9px #000000A0;
+    box-shadow: 0 0 6px #0000003A;
+}
+
+.floppa{
+
+    display: block;
+    object-fit: cover;
+    margin: 0 50px 50px 50px;
+    
+}
+
+.floppa_img{
+    object-fit: cover;
+    height: 700px;
+    width: 700px;
+    border-radius: 0 0 4px 4px ;
+}
